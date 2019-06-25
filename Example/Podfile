@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'RxCocoa-Texture_Example' do
-  pod 'RxCocoa-Texture', :path => '../'
+  pod 'RxCocoa-Texture', :git => 'https://github.com/liukundavid/RxCocoa-Texture.git'
   pod 'RxAlamofire'
 
   target 'RxCocoa-Texture_Tests' do
